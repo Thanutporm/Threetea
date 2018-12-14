@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Threetea">
+        <activity android:name=".Threetea_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,9 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity2page" />
-        <activity android:name=".TeaIn" />
-        <activity android:name=".Oni" />
-        <activity android:name=".Chubby"></activity>
+        <activity android:name=".showdata" />
+        <activity android:name=".addmenu"></activity>
     </application>
 
 </manifest>

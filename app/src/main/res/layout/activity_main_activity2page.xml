@@ -4,67 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Threebg"
+    android:background="@drawable/threebg"
     tools:context=".MainActivity2page">
 
     <Button
         android:id="@+id/button1_page2"
         android:layout_width="174dp"
         android:layout_height="57dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="84dp"
-        android:text="Tea In"
-        app:layout_constraintBottom_toTopOf="@+id/button2_page2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2_page2"
-        android:layout_width="174dp"
-        android:layout_height="57dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Oni"
-        app:layout_constraintBottom_toTopOf="@+id/button3_page2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1_page2" />
-
-    <Button
-        android:id="@+id/button3_page2"
-        android:layout_width="174dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="152dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Chubby"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2_page2" />
-
-    <Button
-        android:id="@+id/buttonback_page2"
-        android:layout_width="176dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="back"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="BUBBLE MILK TEA"
+        app:layout_constraintBottom_toTopOf="@+id/buttonback_page2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.604" />
+
+    <Button
+        android:id="@+id/buttonback_page2"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
